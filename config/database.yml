@@ -14,7 +14,7 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: rails_user
-  password: Dnps#0531
+  password: 
   socket: /tmp/mysql.sock
 
 development:
